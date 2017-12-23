@@ -3,9 +3,6 @@ __author__ = "tongzhengyu"
 
 import string
 
-# http://www.pythonchallenge.com/pc/def/ocr.html
-# -> http://www.pythonchallenge.com/pc/def/equality.html
-
 # html src 中获取
 content = '''%%$@_$^__#)^)&!_+]!*@&^}@[@%]()%+$&[(_@%+%$*^@$^!+]!&_#)_*}{}}!}_]$[%}@[{_@#_^{*
 @##&{#&{&)*%(]{{([*}@[@&]+!!*{)!}{%+{))])[!^})+)$]#{*+^((@^@}$[**$&^{$!@#$%)!@(&
@@ -1243,3 +1240,6 @@ print(result)
 # 使用filter，将content中每一个字符通过lambda进行过滤，得到字母
 r2 = filter(lambda x: x in string.ascii_lowercase, content)
 print(''.join(r2))
+
+# http://www.pythonchallenge.com/pc/def/ocr.html
+# -> http://www.pythonchallenge.com/pc/def/equality.html
